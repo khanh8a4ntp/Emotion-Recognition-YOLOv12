@@ -1,16 +1,32 @@
-HOW TO RUN:
-1. Run cmd
-            Window + R
+How to Run
+Follow these steps to launch the application:
 
-2. Access to the web folder
-            cd (your path of EvisionWeb location)
+Open a Terminal:
+On Windows: Press Win + R, type cmd, and press Enter.
+On macOS/Linux: Open your terminal application.
+Navigate to the Project Directory:
 
-3. Create a Virtual Environment and activate (recommended)
-   3.1        python -m venv venv
-   3.2        venv\Scripts\activate
 
-4. Install Dependencies
-              pip install -r requirements.txt
 
-5. Run web
-              python app.py
+cd /path/to/EvisionWeb
+Replace /path/to/EvisionWeb with the actual path to the project folder.
+Activate the Virtual Environment:
+
+
+
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install Dependencies (if not done):
+
+
+
+pip install -r requirements.txt
+Start the Flask Server:
+
+
+
+python app.py
+The server will run on http://127.0.0.1:5000 in debug mode.
+Look for logs confirming the YOLO model loading and server startup.
+Access the Application:
+Open a browser and go to http://127.0.0.1:5000.
+Explore features via the homepage (upload, capture, record, real-time).
