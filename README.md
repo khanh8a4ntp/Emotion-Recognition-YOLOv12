@@ -22,6 +22,19 @@ Integrated with a friendly chatbot powered by the Gemini API, the application pr
 - **Downloadable Results**: Save processed images, videos, or detection results as text files for further use.
 - **Responsive Interface**: Enjoy a user-friendly UI with loading animations, notifications, and clear result displays.
 
+## Screenshots
+
+Here are some glimpses of the Emotion Detection Web Application in action:
+
+![Upload Feature](images/upload-screenshot.png)  
+*Upload an image or video to detect emotions with bounding boxes.*
+
+![Real-time Detection](images/realtime-screenshot.png)  
+*Real-time emotion detection with live webcam streaming and chatbot interaction.*
+
+![Chatbot Interaction](images/chatbot-screenshot.png)  
+*The chatbot responding to detected emotions in a friendly tone.*
+
 ## Tech Stack
 
 - **Backend**: Flask (Python) with Flask-SocketIO for real-time communication
@@ -112,13 +125,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For questions or support, reach out to the project maintainer at [your-email@example.com].
-
----
-
-### Đặc điểm chính
-- Định dạng theo phong cách GitHub với các tiêu đề sử dụng `#` và `##`, danh sách gạch đầu dòng (`-`), và đoạn mã được bọc trong dấu `` ```
-- Loại bỏ hoàn toàn phần **How to Run** theo yêu cầu.
-- Tập trung vào giới thiệu tổng quan, tính năng, công nghệ, và các thông tin liên quan đến ứng dụng.
-- Nội dung được trình bày ngắn gọn, rõ ràng, và chuyên nghiệp, phù hợp với chuẩn README trên GitHub.
-
-Nếu bạn cần chỉnh sửa thêm, hãy cho tôi biết!
