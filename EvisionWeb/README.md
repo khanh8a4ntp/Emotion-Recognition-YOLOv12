@@ -1,4 +1,4 @@
-HOW TO RUN
+# HOW TO RUN
 Follow these steps to launch the application:
 
 1. Open a Terminal:
@@ -12,8 +12,8 @@ Replace /path/to/EvisionWeb with the actual path to the project folder.
 
 
 3.Activate the Virtual Environment:
-# On Mac: source venv/bin/activate  
-# On Windows: venv\Scripts\activate
+ On Mac: source venv/bin/activate  
+ On Windows: venv\Scripts\activate
 
 
 4. Install Dependencies (if not done):
