@@ -1,41 +1,70 @@
-# Emotion Detection Web Application
+# Emotion Detection Web Application 🚀
 
-## Overview
+## 🎯 Overview
 
-Welcome to the **Emotion Detection Web Application**, a powerful tool designed for both real-time and static emotion detection using the advanced YOLOv12 model. This web-based application allows users to analyze emotions through various methods, including:
+**Emotion Detection Web Application** is an innovative, cross-platform tool powered by the **YOLOv12 model**, designed to detect emotions in real-time and static scenarios. Whether you're uploading images, capturing photos, recording videos, or streaming live webcam feeds, this application offers a seamless experience to analyze emotions with high accuracy. 
 
-- Uploading images or videos
-- Capturing photos via webcam
-- Recording videos
-- Streaming live webcam feeds for real-time detection
+Integrated with a friendly **AI chatbot** powered by the Gemini API, the app provides interactive responses in **Vietnamese** and **English**, adapting to your emotions and language preferences. With a sleek, intuitive UI, customizable settings, and downloadable results, this project brings emotion detection to life! 🌟
 
-Integrated with a friendly chatbot powered by the Gemini API, the application provides interactive responses based on detected emotions, supporting both Vietnamese and English languages. The app features a responsive and intuitive interface, complete with customizable settings, downloadable results, and seamless real-time interaction capabilities.
+---
 
-## Features
+## ✨ Features
 
-- **Image and Video Upload**: Upload images (JPEG/PNG) or videos (WebM/MP4) to detect emotions with annotated bounding boxes.
-- **Photo Capture**: Use your webcam to capture a photo and instantly analyze the emotions present.
-- **Video Recording**: Record videos via your webcam and process them for emotion detection, with annotations added every 30 frames.
-- **Real-time Detection**: Stream your webcam feed for continuous emotion detection, complete with live bounding box overlays and chatbot interaction.
-- **Emotion-based Chatbot**: A friendly chatbot that responds to detected emotions in Vietnamese or English, adapting to the user's language through automatic detection.
-- **Adjustable Confidence Threshold**: Customize the detection sensitivity using a slider (default: 5%) to fine-tune results.
-- **Downloadable Results**: Save processed images, videos, or detection results as text files for further use.
-- **Responsive Interface**: Enjoy a user-friendly UI with loading animations, notifications, and clear result displays.
+- **📤 Image and Video Upload**: Upload images (JPEG/PNG) or videos (WebM/MP4) to detect emotions with annotated bounding boxes.
+- **📸 Photo Capture**: Capture a photo via webcam for instant emotion analysis.
+- **🎥 Video Recording**: Record videos and process them for emotion detection, with annotations added every 30 frames.
+- **🌐 Real-time Detection**: Stream your webcam feed for continuous emotion detection, complete with live bounding box overlays and AI chatbot interaction.
+- **🤖 Emotion-based Chatbot**: A friendly AI chatbot that responds to detected emotions in Vietnamese or English, with automatic language detection.
+- **🎚️ Adjustable Confidence Threshold**: Fine-tune detection sensitivity using a slider (default: 5%).
+- **💾 Downloadable Results**: Save processed images, videos, or detection results as text files.
+- **🎨 Responsive Interface**: Enjoy a user-friendly UI with loading animations, notifications, and clear result displays.
 
-## Screenshots
+---
 
-Here are some glimpses of the Emotion Detection Web Application in action:
+## 📸 Screenshots
 
-![Upload Feature](images/upload-screenshot.png)  
-*Upload an image or video to detect emotions with bounding boxes.*
+### Homepage
+Discover the power of emotion detection with EVision AI! Choose your experience from a variety of intuitive tools.
 
-![Real-time Detection](images/realtime-screenshot.png)  
-*Real-time emotion detection with live webcam streaming and chatbot interaction.*
+![Homepage](images/homepage android.jpg)
 
-![Chatbot Interaction](images/chatbot-screenshot.png)  
-*The chatbot responding to detected emotions in a friendly tone.*
+### Image Upload
+Upload images to detect emotions with high accuracy, featuring bounding boxes and confidence scores.
 
-## Tech Stack
+![Image Upload](images/web-image-upload-function.png)
+
+### Photo Capture
+Capture a photo using your webcam and instantly analyze emotions with detailed results.
+
+![Photo Capture](images/Webcam-capture-function.png)
+
+### Video Recording
+Record videos via webcam and process them for emotion detection, with annotations added every 30 frames.
+
+![Video Recording](images/webcam-video-capture.png)
+
+### Real-time Detection with Chatbot
+Stream your webcam feed for real-time emotion detection and interact with our AI chatbot, which responds to your emotions in a friendly tone.
+
+![Real-time Detection](images/Realtime-webcam-chatbot.png)
+
+---
+
+## 📊 Model Performance
+
+The YOLOv12 model was trained and validated with the following performance metrics, showcasing its accuracy and robustness:
+
+![Training Metrics](images/training-metrics.png)
+
+### Metrics Breakdown
+- **Train Losses**: `train/box_loss`, `train/cls_loss`, `train/dfl_loss` show the model's learning progress over epochs.
+- **Validation Losses**: `val/box_loss`, `val/cls_loss`, `val/dfl_loss` indicate the model's performance on unseen data.
+- **Precision and Recall**: `metrics/precision(B)` and `metrics/recall(B)` demonstrate the model's ability to correctly identify emotions.
+- **mAP Metrics**: `metrics/mAP50(B)` and `metrics/mAP50-95(B)` provide a comprehensive evaluation of the model's accuracy across different IoU thresholds.
+
+---
+
+## 🛠️ Tech Stack
 
 - **Backend**: Flask (Python) with Flask-SocketIO for real-time communication
 - **Frontend**: HTML, CSS, and JavaScript, leveraging Socket.IO for seamless real-time streaming
@@ -47,7 +76,9 @@ Here are some glimpses of the Emotion Detection Web Application in action:
 - **Chatbot**: Powered by the Gemini API for generating emotion-based responses
 - **Dependencies**: All required packages are listed in `requirements.txt`
 
-## Supported Emotions
+---
+
+## 🧠 Supported Emotions
 
 The application detects a range of emotions, each accompanied by a confidence score, an emoji, and a color-coded bounding box:
 
@@ -61,14 +92,18 @@ The application detects a range of emotions, each accompanied by a confidence sc
 - **Surprised** 😲
 - **Unknown** ❓ (for unrecognized emotions)
 
-## Usage Scenarios
+---
+
+## 📖 Usage Scenarios
 
 - **Static Analysis**: Upload an image or video to analyze emotions in a single moment or across a sequence of frames.
 - **Instant Capture**: Take a quick photo with your webcam to see what emotions are present.
 - **Video Processing**: Record a video and let the app annotate emotions frame-by-frame.
-- **Live Interaction**: Use the real-time feature to stream your webcam feed, watch emotions being detected live, and chat with the bot based on your mood.
+- **Live Interaction**: Stream your webcam feed, watch emotions being detected live, and chat with the AI bot based on your mood.
 
-## Chatbot Interaction
+---
+
+## 💬 Chatbot Interaction
 
 The integrated chatbot enhances the user experience by responding to detected emotions in a conversational manner. Key features include:
 
@@ -78,7 +113,9 @@ The integrated chatbot enhances the user experience by responding to detected em
   - **English Responses**: Uses a casual, playful tone with teencode (e.g., "u", "bro", "lol") and emojis for a fun vibe.
 - **Automatic Language Detection**: Detects the user's language to respond appropriately.
 
-## Configuration Details
+---
+
+## 🗂️ Configuration Details
 
 ### File Structure
 
@@ -102,13 +139,17 @@ The integrated chatbot enhances the user experience by responding to detected em
 - **Gemini API**: Requires a valid API key for the chatbot to function
 - **Confidence Threshold**: Adjustable via the UI (default: 5%) to control detection sensitivity
 
-## Notes
+---
 
-- The YOLO model must be trained or fine-tuned for emotion detection to recognize the supported emotions accurately.
+## 📝 Notes
+
+- The YOLOv12 model must be trained or fine-tuned for emotion detection to recognize the supported emotions accurately.
 - Real-time detection can be resource-intensive; ensure your system has sufficient CPU/GPU resources.
 - The chatbot requires an active internet connection and a valid Gemini API key to operate.
 
-## Contributing
+---
+
+## 🤝 Contributing
 
 We welcome contributions! To contribute:
 
@@ -118,10 +159,18 @@ We welcome contributions! To contribute:
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a pull request.
 
-## License
+---
+
+## 📜 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Contact
+---
+
+## 📬 Contact
 
 For questions or support, reach out to the project maintainer at [your-email@example.com].
+
+---
+
+⭐ **Star this repository if you find it useful!** ⭐
