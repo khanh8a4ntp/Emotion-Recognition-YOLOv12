@@ -60,7 +60,7 @@ The Emotion Detection Web Application offers a comprehensive set of features des
 ### Homepage
 Discover the power of emotion detection with EVision AI! Choose your experience from a variety of intuitive tools.
 
-![Homepage](images/web-home-page.jpg)
+![Homepage](images/web-home-page.pngpng)
 
 ### Image Upload
 Upload images to detect emotions with high accuracy, featuring bounding boxes and confidence scores.
