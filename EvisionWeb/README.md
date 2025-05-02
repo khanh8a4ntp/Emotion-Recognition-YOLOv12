@@ -23,12 +23,12 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-5. Install Dependencies (if not done):
+4. Install Dependencies (if not done):
 ```bash
 pip install -r requirements.txt
 ```
 
-6. Start the Flask Server:
+5. Start the Flask Server:
 ```bash
 python app.py
 ```
