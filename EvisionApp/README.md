@@ -26,9 +26,9 @@ Win + R -> cmd
 cd your/path/of/EvisionApp
 ```
 2. Install libs
-    ```bash
-   pip install -r requirement.txt
-   ```
+```bash
+pip install -r requirement.txt
+ ```
 3. Install Dependencies
 Install the required packages listed in pubspec.yaml:
 ```bash
