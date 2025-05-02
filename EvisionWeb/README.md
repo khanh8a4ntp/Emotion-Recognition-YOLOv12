@@ -2,8 +2,8 @@
 Follow these steps to launch the application:
 
 1. Open a Terminal:
-On Windows: Press Win + R, type cmd, and press Enter.
-On macOS/Linux: Open your terminal application.
+- On Windows: Press Win + R, type cmd, and press Enter.
+- On macOS/Linux: Open your terminal application.
 
 
 2. Navigate to the Project Directory:
