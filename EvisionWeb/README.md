@@ -14,11 +14,11 @@ Replace /path/to/EvisionWeb with the actual path to the project folder.
 
 
 3. Activate the Virtual Environment:
- On Mac:
+- On Mac:
 ```bash
 source venv/bin/activate
 ```
- On Windows:
+- On Windows:
 ```bash
 venv\Scripts\activate
 ```
