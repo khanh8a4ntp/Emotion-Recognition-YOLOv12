@@ -25,7 +25,8 @@ Win + R -> cmd
 ```bash
 cd your/path/of/EvisionApp
 ```
-2. ```bash
+2. Install libs
+    ```bash
    pip install -r requirement.txt
    ```
 3. Install Dependencies
