@@ -1,4 +1,4 @@
-# Emotion Detection Web Application
+# Emotion Detection Web Application 
 
 ## Introduction
 
@@ -102,6 +102,41 @@ Contributions are welcome! To contribute:
 5. Open a pull request.
 FOLLOW README IN EACH FOLDER FOR MORE
 ---
+
+## Android Application Features
+### Requirements
+1. To develop and run EvisionApp, ensure the following are installed:
+
+- Flutter: Version 3.24 or higher (Flutter Installation Guide).
+- Dart: Version 3.5 or higher (included with Flutter).
+- IDE: VS Code, Android Studio, or IntelliJ IDEA with Flutter and Dart plugins.
+- Device/Emulator: Android (API 21+) or iOS (12.0+) device/emulator.
+
+2. Dependencies:
+- Camera access for photo and video capture.
+- Storage permissions for saving results.
+- Internet connection for AI chatbot and model updates.
+- Optional: Firebase CLI for push notifications or analytics (if integrated).
+
+---
+
+## Screenshots
+
+### Homepage
+Discover the power of emotion detection with EVision AI! Choose your experience from a variety of intuitive tools.
+
+![Homepage](images/homepage-android.jpg)
+
+### Image Upload
+Upload images to detect emotions with high accuracy, featuring bounding boxes and confidence scores.
+
+![Image Upload 1](images/image-picker-android.jpg)
+![Image Upload 2](images/image-picker-android-1.jpg)
+
+### Photo Capture
+Capture a photo using your webcam and instantly analyze emotions with detailed results.
+
+![Photo Capture](images/camera-capture-android.jpg)
 
 ## License
 
