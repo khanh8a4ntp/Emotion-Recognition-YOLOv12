@@ -12,8 +12,17 @@ cd /path/to/EvisionWeb
 ```
 Replace /path/to/EvisionWeb with the actual path to the project folder.
 
+3. Install Virtual Environment (if you installed before, skip this step):
+```bash
+pip install virtualenv
+```
 
-3. Activate the Virtual Environment:
+4. Create Virtual Environment:
+```bash
+python -m venv venv
+```
+
+5. Activate the Virtual Environment:
 - On Mac:
 ```bash
 source venv/bin/activate
@@ -23,12 +32,12 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-4. Install Dependencies (if not done):
+6. Install Dependencies (if not done):
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Start the Flask Server:
+7. Start the Flask Server:
 ```bash
 python app.py
 ```
